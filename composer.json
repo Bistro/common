@@ -1,0 +1,28 @@
+{
+	"name": "bistro/common",
+	"description": "A set of common classes shared across the Bistro components",
+	"type": "library",
+	"keywords": ["bistro", "common", "shared"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dave Widmer",
+			"email": "dave@davewidmer.net",
+			"homepage": "http://www.davewidmer.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/Bistro/common",
+		"issues": "https://github.com/Bistro/common/issues"
+	},
+	"require": {
+		"php": ">=5.3"
+	},
+
+	"autoload": {
+		"psr-0": {
+			"Bistro": "lib"
+		}
+	}
+}
