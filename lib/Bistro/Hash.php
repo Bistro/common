@@ -96,6 +96,7 @@ class Hash
 	public function replace(array $data)
 	{
 		$this->data = $data;
+		return $this;
 	}
 
 	/**
